@@ -1,0 +1,33 @@
+asignaturas={"mates","lengua",...} #Nos lo dice su bachiller
+tiempoDía = {8;8;8;8;8;8;8}; #Nos lo dice el usuario
+horasLunes={"","","","","","","","";""} (aún por ver)función crear array vacío tamaño pos del tiempo día
+
+for i in asignaturas:
+	
+	tiempoAsign = 10 (aún no lo tenemos)
+	vectorDía={} es un vector
+	
+	while(salirBucleGrandre=false)
+		
+		while(salir==false)
+			díaSemana=random(0;6)
+			if tiempoDía[díaRandom]=0 and díaSemana not in vectorDía then salir=false
+		
+		tiempo=random(1;2) (Hacer que sea más probable el 2 que el 1)
+		tiempoDía[díaRandom]=tiempoDía[díaRandom]-tiempo
+		tiempoAsign = tiempoAsign - tiempo;
+		pos=random(0;len(horasLunes))
+		if tiempo=1:
+			if horasLunes[pos]=""  then horasLunes[pos]=i)
+		if tiempo=2:
+			if horasLunes[pos]="" and horasLunes[pos+1]="" then do horasLunes[pos]= and horasLunes[pos+1]=i
+		vectordía=append(díaSemana)
+		if tiempoAsign = 0 then salirBucleGrandre=true;
+
+calendario={horaslunes, horasMartes} -> dataframe
+
+Gestionar:
+	-tiempo semanal de estudio > tiempo semanal disponible
+	-Lunes -> mates -> 2 horas -> solo queda 1 hora del día 
+	-tiempo semanal de estudio <<< tiempo semanal disponible -> Lunes +++ miercoles ---
+
